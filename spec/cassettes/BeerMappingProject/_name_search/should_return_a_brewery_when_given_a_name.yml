@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://beermapping.com/webservice/locquery/<BEER_MAPPING_API_KEY>/Jack's+Abby+Brewing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 25 Jan 2015 00:25:34 GMT
+      Server:
+      - Apache
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Last-Modified:
+      - Sun, 25 Jan 2015 00:25:34 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '349'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: UTF-8
+      string: <?xml version='1.0' encoding='utf-8' ?><bmp_locations><location><id>14978</id><name>Jack's
+        Abby Brewing</name><status>Brewery</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=14978</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=14978&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=14978&amp;d=1&amp;type=norm</blogmap><street>81
+        Morton Street</street><city>Framingham</city><state>MA</state><zip>01702</zip><country>United
+        States</country><phone>(508) 872-0900</phone><overall>90.0001</overall><imagecount>0</imagecount></location></bmp_locations>
+    http_version: 
+  recorded_at: Sun, 25 Jan 2015 00:25:34 GMT
+recorded_with: VCR 2.9.2

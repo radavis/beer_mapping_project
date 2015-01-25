@@ -1,8 +1,10 @@
-require_relative 'helper'
+require 'pry'
+require 'dotenv'
+Dotenv.load
+require 'httparty'
+require 'cgi'
+require_relative 'brewery'
 
-# example call:
-# breweries = BeerMappingProject.new.city_search("Boston")
-# breweries is an array of Brewery objects
 class BeerMappingProject
   include HTTParty
 
@@ -44,9 +46,16 @@ class BeerMappingProject
   # builds a Brewery based on records return from api call
   def brewify(results)
     breweries = []
-    results.each do |attributes|
-      breweries << Brewery.new(attributes)
+
+    if results.class == Hash
+      breweries << Brewery.new(results)
+
+    elsif results.class == Array
+      results.each do |attributes|
+        breweries << Brewery.new(attributes)
+      end
     end
+
     breweries
   end
 end

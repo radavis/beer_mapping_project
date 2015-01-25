@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://beermapping.com/webservice/locquery/<BEER_MAPPING_API_KEY>/Budweiser
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 25 Jan 2015 00:25:34 GMT
+      Server:
+      - Apache
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Last-Modified:
+      - Sun, 25 Jan 2015 00:25:34 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '341'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: UTF-8
+      string: <?xml version='1.0' encoding='utf-8' ?><bmp_locations><location><id>8794</id><name>Budweiser
+        Budvar</name><status>Brewery</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=8794</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=8794&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=8794&amp;d=1&amp;type=norm</blogmap><street>Karoliny
+        Svetle 4</street><city>Ceske Budejovice</city><state></state><zip>370 21</zip><country>Czech
+        Republic</country><phone>420 387 705 11</phone><overall>0</overall><imagecount>0</imagecount></location></bmp_locations>
+    http_version: 
+  recorded_at: Sun, 25 Jan 2015 00:25:34 GMT
+recorded_with: VCR 2.9.2

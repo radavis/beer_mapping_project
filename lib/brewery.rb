@@ -1,5 +1,7 @@
-# map hash to object
 class Brewery
+  attr_reader :name, :type, :address, :city, :state, :zip,
+    :country, :phone_number, :review_url, :map_link
+
   def initialize(attributes)
     @beer_mapping_project_id = attributes["id"]
     @name = attributes["name"]

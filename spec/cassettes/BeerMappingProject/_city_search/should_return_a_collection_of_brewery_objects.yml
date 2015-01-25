@@ -1,0 +1,186 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://beermapping.com/webservice/loccity/<BEER_MAPPING_API_KEY>/Boston
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 25 Jan 2015 00:01:08 GMT
+      Server:
+      - Apache
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Last-Modified:
+      - Sun, 25 Jan 2015 00:01:08 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '2675'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: UTF-8
+      string: <?xml version='1.0' encoding='utf-8' ?><bmp_locations><location><id>103</id><name>Beer
+        Works - Canal Street</name><status>Brewpub</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=103</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=103&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=103&amp;d=1&amp;type=norm</blogmap><street>112
+        Canal Street</street><city>Boston</city><state>MA</state><zip>02114</zip><country>United
+        States</country><phone>(617) 896-2337</phone><overall>91.6667</overall><imagecount>1</imagecount></location><location><id>104</id><name>Beer
+        Works - Fenway</name><status>Brewpub</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=104</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=104&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=104&amp;d=1&amp;type=norm</blogmap><street>61
+        Brookline Avenue</street><city>Boston</city><state>MA</state><zip>02215</zip><country>United
+        States</country><phone>(617) 536-BEER</phone><overall>89.44445</overall><imagecount>0</imagecount></location><location><id>189</id><name>Boston
+        Beer Company (Sam Adams)</name><status>Brewery</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=189</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=189&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=189&amp;d=1&amp;type=norm</blogmap><street>30
+        Germania Street</street><city>Boston</city><state>MA</state><zip>02130</zip><country>United
+        States</country><phone>(617) 522-9080</phone><overall>84.999933333334</overall><imagecount>3</imagecount></location><location><id>571</id><name>Harpoon
+        Brewery - Boston</name><status>Brewery</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=571</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=571&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=571&amp;d=1&amp;type=norm</blogmap><street>306
+        Northern Ave.</street><city>Boston</city><state>MA</state><zip>02210</zip><country>United
+        States</country><phone>(617) 574-9551</phone><overall>0</overall><imagecount>4</imagecount></location><location><id>1091</id><name>Rock
+        Bottom - Boston</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1091</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1091&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1091&amp;d=1&amp;type=norm</blogmap><street>115
+        Stuart Street</street><city>Boston</city><state>MA</state><zip>02116</zip><country>United
+        States</country><phone>(617) 742-BREW</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1865</id><name>21st
+        Amendment - Boston</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1865</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1865&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1865&amp;d=1&amp;type=norm</blogmap><street>148
+        Bowdoin Street</street><city>Boston</city><state>MA</state><zip>02108</zip><country>United
+        States</country><phone>(617) 227-7100</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1869</id><name>Barking
+        Crab</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1869</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1869&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1869&amp;d=1&amp;type=norm</blogmap><street>88
+        Sleeper Street</street><city>Boston</city><state>MA</state><zip>02210</zip><country>United
+        States</country><phone>(617) 426-CRAB </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1872</id><name>Boodle's
+        Bar and Restaurant</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1872</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1872&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1872&amp;d=1&amp;type=norm</blogmap><street>40
+        Dalton St.</street><city>Boston</city><state>MA</state><zip>02115</zip><country>United
+        States</country><phone>(617) 236-1100 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1873</id><name>Brasserie
+        Jo - Boston</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1873</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1873&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1873&amp;d=1&amp;type=norm</blogmap><street>120
+        Huntington Ave</street><city>Boston</city><state>MA</state><zip>02116</zip><country>United
+        States</country><phone>(617) 425-3240</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1876</id><name>Bukowski's
+        Tavern - Boston</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1876</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1876&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1876&amp;d=1&amp;type=norm</blogmap><street>50
+        Dalton Street</street><city>Boston</city><state>MA</state><zip>02115</zip><country>United
+        States</country><phone>(617) 437-9999</phone><overall>93.33335</overall><imagecount>0</imagecount></location><location><id>1884</id><name>Cornwalls</name><status>Beer
+        Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1884</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1884&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1884&amp;d=1&amp;type=norm</blogmap><street>654
+        Beacon Street</street><city>Boston</city><state>MA</state><zip>02215</zip><country>United
+        States</country><phone>(617) 262-3749</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1889</id><name>Green
+        Dragon Tavern, The</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1889</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1889&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1889&amp;d=1&amp;type=norm</blogmap><street>11
+        Marshall St.</street><city>Boston</city><state>MA</state><zip>02108</zip><country>United
+        States</country><phone>(617) 367-0055</phone><overall>86.6664</overall><imagecount>0</imagecount></location><location><id>1892</id><name>J.J.
+        Foley's</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1892</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1892&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1892&amp;d=1&amp;type=norm</blogmap><street>21
+        Kingston St.</street><city>Boston</city><state>MA</state><zip>02108</zip><country>United
+        States</country><phone>(617) 338-7713 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1893</id><name>Jacob
+        Wirth</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1893</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1893&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1893&amp;d=1&amp;type=norm</blogmap><street>31-37
+        Stuart St</street><city>Boston</city><state>MA</state><zip>02116</zip><country>United
+        States</country><phone>(617) 338-8586</phone><overall>95</overall><imagecount>0</imagecount></location><location><id>1896</id><name>Kinsale,
+        The</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1896</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1896&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1896&amp;d=1&amp;type=norm</blogmap><street>2
+        Center Plaza</street><city>Boston</city><state>MA</state><zip>02108</zip><country>United
+        States</country><phone>(617) 742-5577</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1900</id><name>Mission
+        Bar and Grill, The</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1900</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1900&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1900&amp;d=1&amp;type=norm</blogmap><street>724
+        Huntington Avenue</street><city>Boston</city><state>MA</state><zip>02120</zip><country>United
+        States</country><phone>(617) 566-1244 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1901</id><name>MJ
+        O'Connor's</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1901</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1901&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1901&amp;d=1&amp;type=norm</blogmap><street>27
+        Columbus Ave</street><city>Boston</city><state>MA</state><zip>02116</zip><country>United
+        States</country><phone>(617) 482-2255</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1905</id><name>Parish
+        Cafe</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1905</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1905&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1905&amp;d=1&amp;type=norm</blogmap><street>361
+        Boylston St</street><city>Boston</city><state>MA</state><zip>02116</zip><country>United
+        States</country><phone>(617) 247-4777 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1906</id><name>Penguin
+        Pizza</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1906</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1906&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1906&amp;d=1&amp;type=norm</blogmap><street>735
+        Huntington Avenue</street><city>Boston</city><state>MA</state><zip>02120</zip><country>United
+        States</country><phone>(617) 277-9200</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1910</id><name>Porters
+        Bar and Grill</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1910</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1910&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1910&amp;d=1&amp;type=norm</blogmap><street>173
+        Portland Street</street><city>Boston</city><state>MA</state><zip>02114</zip><country>United
+        States</country><phone>(617) 742-PORT</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1922</id><name>Sunset
+        Cantina</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1922</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1922&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1922&amp;d=1&amp;type=norm</blogmap><street>916
+        Commonwealth Ave.</street><city>Boston</city><state>MA</state><zip>02215</zip><country>United
+        States</country><phone>(617) 731-8646</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1926</id><name>Times
+        Restaurant And Pub, The</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1926</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1926&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1926&amp;d=1&amp;type=norm</blogmap><street>112
+        Broad St</street><city>Boston</city><state>MA</state><zip>02110</zip><country>United
+        States</country><phone>(617) 357-8463 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>1929</id><name>Woody's
+        Grill And Tap</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=1929</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=1929&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=1929&amp;d=1&amp;type=norm</blogmap><street>58
+        Hemenway Street</street><city>Boston</city><state>MA</state><zip>02115</zip><country>United
+        States</country><phone>(617) 375-9663 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>2427</id><name>Bauer
+        Wine and Spirits</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=2427</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=2427&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=2427&amp;d=1&amp;type=norm</blogmap><street>330
+        Newbury Street</street><city>Boston</city><state>MA</state><zip>02115</zip><country>United
+        States</country><phone>(617) 262-0363</phone><overall>100</overall><imagecount>0</imagecount></location><location><id>2437</id><name>Charles
+        Street Liquors</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=2437</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=2437&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=2437&amp;d=1&amp;type=norm</blogmap><street>143
+        Charles St.</street><city>Boston</city><state>MA</state><zip>02114</zip><country>United
+        States</country><phone>(617) 523-5051</phone><overall>92.500025</overall><imagecount>0</imagecount></location><location><id>2438</id><name>Dara's
+        Wine and Spirits</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=2438</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=2438&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=2438&amp;d=1&amp;type=norm</blogmap><street>750
+        Huntington Avenue</street><city>Boston</city><state>MA</state><zip>02115</zip><country>United
+        States</country><phone>(617) 566-4850 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>2439</id><name>Deluca's
+        Market and Wine Shop</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=2439</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=2439&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=2439&amp;d=1&amp;type=norm</blogmap><street>11
+        Charles St.</street><city>Boston</city><state>MA</state><zip>02114</zip><country>United
+        States</country><phone>(617) 227-2117 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>2441</id><name>Federal
+        Wines and Spirits</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=2441</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=2441&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=2441&amp;d=1&amp;type=norm</blogmap><street>29
+        State Street</street><city>Boston</city><state>MA</state><zip>02109</zip><country>United
+        States</country><phone>(617) 367-8605 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>2465</id><name>South
+        End Formaggio</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=2465</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=2465&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=2465&amp;d=1&amp;type=norm</blogmap><street>268
+        Shawmut Ave</street><city>Boston</city><state>MA</state><zip>02118</zip><country>United
+        States</country><phone>(617) 350-6996</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>2473</id><name>Wine
+        Emporium - Columbus Ave.</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=2473</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=2473&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=2473&amp;d=1&amp;type=norm</blogmap><street>474
+        Columbus Ave</street><city>Boston</city><state>MA</state><zip>02118</zip><country>United
+        States</country><phone>(617) 536-5545 </phone><overall>0</overall><imagecount>0</imagecount></location><location><id>2474</id><name>Wine
+        Emporium - Tremont Street</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=2474</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=2474&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=2474&amp;d=1&amp;type=norm</blogmap><street>607
+        Tremont Street</street><city>Boston</city><state>MA</state><zip>02118</zip><country>United
+        States</country><phone>(617) 536-5545</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>2475</id><name>Wine
+        Gallery - Boston</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=2475</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=2475&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=2475&amp;d=1&amp;type=norm</blogmap><street>516
+        Commonwealth Ave</street><city>Boston</city><state>MA</state><zip>02215</zip><country>United
+        States</country><phone>(617) 266-9300</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>3142</id><name>Sevens
+        Ale House</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=3142</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=3142&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=3142&amp;d=1&amp;type=norm</blogmap><street>77
+        Charles Street</street><city>Boston</city><state>MA</state><zip>02114</zip><country>United
+        States</country><phone>(617) 523-9074</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>3752</id><name>Deluca's
+        Back Bay Market</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=3752</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=3752&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=3752&amp;d=1&amp;type=norm</blogmap><street>239
+        Newbury St.</street><city>Boston</city><state>MA</state><zip>02116</zip><country>United
+        States</country><phone>(617) 262-5990</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>5212</id><name>Merchants
+        Wine and Spirits</name><status>Beer Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=5212</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=5212&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=5212&amp;d=1&amp;type=norm</blogmap><street>6
+        Water Street</street><city>Boston</city><state>MA</state><zip>02109</zip><country>United
+        States</country><phone>(617) 523-7425</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>5304</id><name>Lower
+        Depths</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=5304</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=5304&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=5304&amp;d=1&amp;type=norm</blogmap><street>476
+        Commonwealth Ave</street><city>Boston</city><state>MA</state><zip>02215</zip><country>United
+        States</country><phone>(617) 266-6662</phone><overall>86.6668</overall><imagecount>0</imagecount></location><location><id>6397</id><name>Squealing
+        Pig, The</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=6397</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=6397&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=6397&amp;d=1&amp;type=norm</blogmap><street>134
+        Smith Street</street><city>Boston</city><state>MA</state><zip>02120</zip><country>United
+        States</country><phone>(617) 566-6651</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>7055</id><name>Black
+        Rose, The</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=7055</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=7055&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=7055&amp;d=1&amp;type=norm</blogmap><street>160
+        State St</street><city>Boston</city><state>MA</state><zip>02109</zip><country>United
+        States</country><phone>(617) 742-2286</phone><overall>78.3332</overall><imagecount>0</imagecount></location><location><id>7263</id><name>Sweetwater
+        Cafe</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=7263</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=7263&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=7263&amp;d=1&amp;type=norm</blogmap><street>3
+        Boylston Pl</street><city>Boston</city><state>MA</state><zip>02116</zip><country>United
+        States</country><phone>(617) 351-2515</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>10624</id><name>Beer
+        Works - BOS airport</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=10624</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=10624&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=10624&amp;d=1&amp;type=norm</blogmap><street>Terminals
+        C and E, Logan Airport</street><city>Boston</city><state>MA</state><zip>02128</zip><country>United
+        States</country><phone>(617) 569-2277</phone><overall>78.33335</overall><imagecount>0</imagecount></location><location><id>11167</id><name>Cisco
+        Brew Pub - BOS airport</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=11167</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=11167&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=11167&amp;d=1&amp;type=norm</blogmap><street>18
+        B Logan Airport</street><city>Boston</city><state>MA</state><zip>02128</zip><country>United
+        States</country><phone></phone><overall>0</overall><imagecount>0</imagecount></location><location><id>11168</id><name>Harpoon
+        Tap Room - BOS airport</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=11168</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=11168&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=11168&amp;d=1&amp;type=norm</blogmap><street>18
+        B Logan Airport</street><city>Boston</city><state>MA</state><zip>02128</zip><country>United
+        States</country><phone></phone><overall>0</overall><imagecount>0</imagecount></location><location><id>11857</id><name>Bottles</name><status>Beer
+        Store</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=11857</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=11857&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=11857&amp;d=1&amp;type=norm</blogmap><street>372
+        Commercial Street</street><city>Boston</city><state>MA</state><zip>02109</zip><country>United
+        States</country><phone>(617) 391-0021</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>12749</id><name>Coda</name><status>Beer
+        Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=12749</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=12749&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=12749&amp;d=1&amp;type=norm</blogmap><street>329
+        Columbus Ave.</street><city>Boston</city><state>MA</state><zip>02116</zip><country>United
+        States</country><phone>(617) 536-2632</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>14931</id><name>Stoddard's
+        Fine Food and Ale</name><status>Beer Bar</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=14931</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=14931&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=14931&amp;d=1&amp;type=norm</blogmap><street>48
+        Temple Place</street><city>Boston</city><state>MA</state><zip>02111</zip><country>United
+        States</country><phone>(617) 426-0048</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>15568</id><name>Deadwood
+        Cafe and Brewery</name><status>Brewpub</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=15568</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=15568&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=15568&amp;d=1&amp;type=norm</blogmap><street>820
+        Morrissey Blvd</street><city>Boston</city><state>MA</state><zip>02122</zip><country>United
+        States</country><phone>(617) 825-3800</phone><overall>0</overall><imagecount>0</imagecount></location><location><id>17377</id><name>Trillium
+        Brewing Company</name><status>Brewery</status><reviewlink>http://beermapping.com/maps/reviews/reviews.php?locid=17377</reviewlink><proxylink>http://beermapping.com/maps/proxymaps.php?locid=17377&amp;d=5</proxylink><blogmap>http://beermapping.com/maps/blogproxy.php?locid=17377&amp;d=1&amp;type=norm</blogmap><street>369
+        Congress Street</street><city>Boston</city><state>MA</state><zip>02210</zip><country>United
+        States</country><phone>(617) 453-8745</phone><overall>0</overall><imagecount>0</imagecount></location></bmp_locations>
+    http_version: 
+  recorded_at: Sun, 25 Jan 2015 00:01:08 GMT
+recorded_with: VCR 2.9.2
